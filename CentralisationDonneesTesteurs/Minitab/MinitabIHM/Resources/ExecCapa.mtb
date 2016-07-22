@@ -1,0 +1,12 @@
+Capa 'DATA' 1;
+Lspec 0;
+Uspec 1;
+Pooled;
+AMR;
+UnBiased;
+OBiased;
+Toler 6;
+Within;
+Overall;
+Title "NBRE DE BITS FAIL RGB1 Image";
+CStat.

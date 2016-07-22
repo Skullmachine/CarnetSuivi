@@ -1,0 +1,11 @@
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\bin\Debug\MinitabIHM.exe.config
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\bin\Debug\MinitabIHM.exe
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\bin\Debug\MinitabIHM.pdb
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\bin\Debug\MinitabIHM.xml
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\obj\Debug\Interop.Mtb.dll
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\obj\Debug\MinitabIHM.vbproj.ResolveComReference.cache
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\obj\Debug\MinitabIHM.Resources.resources
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\obj\Debug\MinitabIHM.vbproj.GenerateResource.Cache
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\obj\Debug\MinitabIHM.exe
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\obj\Debug\MinitabIHM.xml
+d:\users\F85601A\Desktop\Minitab\MinitabIHM\obj\Debug\MinitabIHM.pdb

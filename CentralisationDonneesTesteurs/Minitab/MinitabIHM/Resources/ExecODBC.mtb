@@ -1,0 +1,14 @@
+ODBC;
+Connect "DSN=Server Rapports Test;UID=mces02;PWD=mmf086+;APP=Minitab 17 Statistical Software;WSID=DT0102395;DATABASE=DMCapabiliteRetest;";
+SQLString "SELECT ""STEP_NAME"", ""UUT_SERIAL_NUMBER"", " &
+"""START_DATE_TIME"", COALESCE(""HIGH_LIMIT"",0) AS HIGH_LIMIT, " & 
+"TRY_CONVERT(FLOAT,""DATA"") AS DATA, COALESCE(""LOW_LIMIT"",0) AS LOW_LIMIT, " &
+"""STATUS"", ""TOTAL_TIME"", ""COMP_OPERATOR"" " & 
+"FROM ""DMCapabiliteRetest"".""dbo"".""FACT_MEASURE"" WITH (READUNCOMMITTED)  " &
+"WHERE ""STATION_ID"" LIKE 'SMEG04@MMCHT%' " &
+"AND ""START_DATE_TIME"" >= '20160512' " &
+"AND ""START_DATE_TIME"" <= '20160515' " &
+"AND LTRIM(RTRIM(""STEP_NAME"")) = 'NBRE DE BITS FAIL RGB1 Image' " &
+"AND ""STEP_TYPE"" like 'NumericLimitTest%' " &
+"AND ""STATUS"" not like 'Skipped%' " &
+"AND ""UUT_SERIAL_NUMBER"" like '1Z+%'". 
